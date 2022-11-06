@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 
 let AllMusics = {
+    
     rockInt: [
         {
             title: "Have You Ever Seen The Rain?",
@@ -129,6 +130,72 @@ let AllMusics = {
             artist: "Raul Seixas",
             src: "../Musics/RockNac/Raul Seixas - Metamorfose Ambulante.mp3",
             img: "../MusicImages/RockNac/raul.jpg",
+            id: "7",
+        },
+    ],
+
+    mpb: [
+        {
+            title: "All Star",
+            artist: "Nando Reis",
+            src: "../Musics/MPB/Nando Reis - All Star (Clipe Oficial).mp3",
+            img: "../MusicImages/MPB/nandoReis.png",
+            id: "0",
+        },
+
+        {
+            title: "Admirável Mundo Novo",
+            artist: "Zé Ramalho",
+            src: "../Musics/MPB/Zé_Ramalho_Admirável_Gado_Novo.mp3",
+            img: "../MusicImages/MPB/zeRamalho.jpg",
+            id: "1",
+        },
+
+        {
+            title: "Se...",
+            artist: "Djavan",
+            src: "../Musics/MPB/Djavan_Se_Ao_Vivo.mp3",
+            img: "../MusicImages/MPB/djavan.jpg",
+            id: "2",
+        },
+
+        {
+            title: "Não Quero Dinheiro (Só Quero Amar)",
+            artist: "Tim Maia",
+            src: "../Musics/MPB/Tim Maia - Não Quero Dinheiro (Só Quero Amar).mp3",
+            img: "../MusicImages/MPB/timMaia.jpg",
+            id: "3",
+        },
+
+        {
+            title: "Malandragem",
+            artist: "Cássia Eller",
+            src: "../Musics/MPB/Cássia Eller - Malandragem (Ao Vivo).mp3",
+            img: "../MusicImages/MPB/cassiaEller.jpg",
+            id: "4",
+        },
+
+        {
+            title: "Lágrimas E Chuva",
+            artist: "Kid Abelha",
+            src: "../Musics/MPB/Kid Abelha - Lágrimas E Chuva (Ao Vivo).mp3",
+            img: "../MusicImages/MPB/kidAbelha.png",
+            id: "5",
+        },
+
+        {
+            title: "Anunciação",
+            artist: "Alceu Valença",
+            src: "../Musics/MPB/Alceu Valenca - Anunciação.mp3",
+            img: "../MusicImages/MPB/alceuValenca.png",
+            id: "6",
+        },
+
+        {
+            title: "Apenas Um Rapaz Latino Americano",
+            artist: "Belchior",
+            src: "../Musics/MPB/Belchior - Apenas Um Rapaz Latino Americano.mp3",
+            img: "../MusicImages/MPB/belchior.png",
             id: "7",
         },
     ],
@@ -267,44 +334,117 @@ let AllMusics = {
         {
             title: 'Cross Road Blues', 
             artist: 'Robert Johnson',
-            src: '../MusicImages/Blues/Cross Road Blues - Robert Johnson (1936).mp3', 
-            img:'../MusicImages/Blues/1',
+            src: '../Musics/Blues/Blues/Cross Road Blues - Robert Johnson (1936).mp3', 
+            img:'../MusicImages/Blues/1.jpg',
             id: '0'
         },
-    
+
         { 
-            title: 'xxxxxx', artist: 'xxxxx', 
-        src:'music/Muddy Waters plays Manish Boy.mp3', id: '1' 
+            title: 'Muddy Waters', 
+            artist: 'Manish Boy', 
+            src:'../Musics/Blues/Muddy Waters plays Manish Boy.mp3', 
+            img:'../MusicImages/Blues/2.jfif',
+            id: '1' 
         },
-    
+
         {
-            title: 'xxxxxxxxx', artist: 'xxxxxxxx',
-            src: 'music/Howlin Wolf - Spoonful.mp3', id: '2'
+            title: 'Howlin Wolf', 
+            artist: ' Spoonful',
+            src: '../Musics/Blues/Howlin Wolf - Spoonful.mp3', 
+            img:'../MusicImages/Blues/3.jfif',
+            id: '2'
         },
-    
+
         { 
-            title: 'xxxx', artist: 'xxxxxxxx',
-         src: 'music/John Lee Hooker - Baby, Please Dont Go (1959).mp3', id: '3' 
+            title: 'x Baby, Please Dont Goxxx', 
+            artist: 'John Lee Hooker',
+            src: '../Musics/Blues/John Lee Hooker - Baby, Please Dont Go (1959).mp3', 
+            img:'../MusicImages/Blues/4.jfif',
+            id: '3' 
         },
-    
+
         { 
-            title: 'xxxx', artist: 'xxxxxxxx',
-         src: 'music/Sonny II - Keep It To Your Self.mp3', id: '4' 
+            title: 'Keep It To Your Self', 
+            artist: 'Sonny II',
+            src: '../Musics/Blues/Sonny II - Keep It To Your Self.mp3', 
+            img:'../MusicImages/Blues/5.jfif',
+            id: '4' 
         },
-    
+
         { 
-            title: 'xxxx', artist: 'xxxxxxxx',
-         src: 'music/Son House - Pearline.mp3', id: '5' 
+            title: 'Pearline', 
+            artist: 'Son House',
+            src: '../Musics/Blues/Son House - Pearline.mp3', 
+            img:'../MusicImages/Blues/6.jpg',
+            id: '5' 
         },
-    
+
         { 
-            title: 'xxxx', artist: 'xxxxxxxx',
-         src: 'music/Leadbelly - Where Did you Sleep Last Night.mp3', id: '6' 
+            title: 'Where Did you Sleep Last Night', 
+            artist: 'Leadbelly',
+            src: '../Musics/Blues/Leadbelly - Where Did you Sleep Last Night.mp3', 
+            img:'../MusicImages/Blues/7.jfif',
+            id: '6' 
         },
-    
+
         { 
-            title: 'xxxx', artist: 'xxxxxxxx',
-         src: 'music/Robert Johnson - Me And The Devil Blues (Legendado) HD.mp3', id: '7' 
+            title: 'Me And The Devil Blues', 
+            artist: 'Robert Johnson',
+            src: '../Musics/Blues/Robert Johnson - Me And The Devil Blues (Legendado) HD.mp3', 
+            img:'../MusicImages/Blues/8.jfif',
+            id: '7' 
+      },
+    ],
+
+    rap: [
+        {
+            title: '777-666', 
+            artist: 'Matuê',
+            src: '../Musics/Rap/Matuê - 777-666.mp3', 
+            img:'../MusicImages/Rap/777-666.jpg',
+            id: '0'
+        },
+        {
+            title: 'Máquina do Tempo', 
+            artist: 'Matuê',
+            src: '../Musics/Rap/Matuê - Máquina do Tempo.mp3', 
+            img:'../MusicImages/Rap/Maquina do tempo.png',
+            id: '1'
+        },
+        {
+            title: 'A Morte do Tempo', 
+            artist: 'Matuê',
+            src: '../Musics/Rap/Matuê - A Morte do Autotune.mp3', 
+            img:'../MusicImages/Rap/Morte do autotune.jpg',
+            id: '2'
+        },
+        {
+            title: 'É sal', 
+            artist: 'Matuê',
+            src: '../Musics/Rap/Matuê - É sal.mp3', 
+            img:'../MusicImages/Rap/É sal.jpg',
+            id: '3'
+        },
+        {
+            title: 'Jovens do Reggae', 
+            artist: 'Kawe e Wiu',
+            src: '../Musics/Rap/Kawe e Wiu - Jovens do Reggae.mp3', 
+            img:'../MusicImages/Rap/Jovens do Reggae.jpg',
+            id: '4'
+        },
+        {
+            title: 'Balazul', 
+            artist: 'Teto & Mateca',
+            src: '../Musics/Rap/Teto & Mateca - Balazul.mp3', 
+            img:'../MusicImages/Rap/Balazul.jpg',
+            id: '5'
+        },
+        {
+            title: 'M4', 
+            artist: 'Teto',
+            src: '../Musics/Rap/Teto - M4 feat. Matuê.mp3', 
+            img:'../MusicImages/Rap/M4.jpg',
+            id: '6'
         },
     ],
     rap: [
