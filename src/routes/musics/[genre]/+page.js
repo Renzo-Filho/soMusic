@@ -447,67 +447,6 @@ let AllMusics = {
             id: '6'
         },
     ],
-    rap: [
-        {
-            title: '777-666', 
-            artist: 'Matuê',
-            src: '../Musics/Rap/Matuê - 777-666.mp3', 
-            img:'../MusicImages/Rap/777-666.jpg',
-            id: '0'
-        },
-        {
-            title: 'Máquina do Tempo', 
-            artist: 'Matuê',
-            src: '../Musics/Rap/Matuê - Máquina do Tempo.mp3', 
-            img:'../MusicImages/Rap/Maquina do tempo.png',
-            id: '1'
-        },
-        {
-            title: 'A Morte do Tempo', 
-            artist: 'Matuê',
-            src: '../Musics/Rap/Matuê - A Morte do Autotune.mp3', 
-            img:'../MusicImages/Rap/Morte do autotune.jpg',
-            id: '2'
-        },
-        {
-            title: 'É sal', 
-            artist: 'Matuê',
-            src: '../Musics/Rap/Matuê - É sal.mp3', 
-            img:'../MusicImages/Rap/É sal.jpg',
-            id: '3'
-        },
-        {
-            title: 'Jovens do Reggae', 
-            artist: 'Kawe e Wiu',
-            src: '../Musics/Rap/Kawe e Wiu - Jovens do Reggae.mp3', 
-            img:'../MusicImages/Rap/Jovens do Reggae.jpg',
-            id: '4'
-        },
-        {
-            title: 'Balazul', 
-            artist: 'Teto & Mateca',
-            src: '../Musics/Rap/Teto & Mateca - Balazul.mp3', 
-            img:'../MusicImages/Rap/Balazul.jpg',
-            id: '5'
-        },
-        {
-            title: 'M4', 
-            artist: 'Teto',
-            src: '../Musics/Rap/Teto - M4 feat. Matuê.mp3', 
-            img:'../MusicImages/Rap/M4.jpg',
-            id: '6'
-        },
-        {
-            title: 'Kenny G', 
-            artist: 'Matuê',
-            src: '../Musics/Rap/Matuê - kenny G.mp3', 
-            img:'../MusicImages/Rap/Kenny G.jpg',
-            id: '7'
-        }
-
-
-    ]
-    
 }
 
 /** @type {import('./$types').PageLoad} */
