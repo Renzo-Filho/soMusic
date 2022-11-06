@@ -67,6 +67,72 @@ let AllMusics = {
         },
     ],
 
+    rockNac: [
+        {
+            title: "Tempo Perdido",
+            artist: "Legião Urbana",
+            src: "../Musics/RockNac/Legião Urbana - Tempo perdido.mp3",
+            img: "../MusicImages/RockNac/legiao.png",
+            id: "0",
+        },
+
+        {
+            title: "Infita Highway",
+            artist: "Engenheiros do Hawaii",
+            src: "../Musics/RockNac/Engenheiros_do_Hawaii_Infinita_Highway_Acustico_MTV.mp3",
+            img: "../MusicImages/RockNac/engenheiros.jpg",
+            id: "1",
+        },
+
+        {
+            title: "Bete Balanço",
+            artist: "Barão Vermelho",
+            src: "../Musics/RockNac/Barão Vermelho - Bete Balanço.mp3",
+            img: "../MusicImages/RockNac/barao.jpeg",
+            id: "2",
+        },
+
+        {
+            title: "Pra Dizer Adeus",
+            artist: "Titãs",
+            src: "../Musics/RockNac/Titãs - Pra Dizer Adeus.mp3",
+            img: "../MusicImages/RockNac/titas.jpg",
+            id: "3",
+        },
+
+        {
+            title: "Do Seu Lado",
+            artist: "Jota Quest",
+            src: "../Musics/RockNac/Jota Quest - Do Seu Lado (Ao Vivo).mp3",
+            img: "../MusicImages/RockNac/jotaQuest.jpg",
+            id: "4",
+        },
+
+        {
+            title: "Garota Nacional",
+            artist: "Skank",
+            src: "../Musics/RockNac/SKANK - GAROTA NACIONAL.mp3",
+            img: "../MusicImages/RockNac/skank.jpg",
+            id: "5",
+        },
+
+        {
+            title: "Primeiros Erros",
+            artist: "Capital Inicial",
+            src: "../Musics/RockNac/Capital_Inicial_Primeiros_Erros_Chove.mp3",
+            img: "../MusicImages/RockNac/capital.png",
+            id: "6",
+        },
+
+        {
+            title: "Metamorfose Ambulante",
+            artist: "Raul Seixas",
+            src: "../Musics/RockNac/Raul Seixas - Metamorfose Ambulante.mp3",
+            img: "../MusicImages/RockNac/raul.jpg",
+            id: "7",
+        },
+    ],
+
     pagode: [
         {
             title: 'Falta Você', 
@@ -197,7 +263,7 @@ let AllMusics = {
         },
     ],
 
-   blues: [
+    blues: [
         {
             title: 'Cross Road Blues', 
             artist: 'Robert Johnson',
