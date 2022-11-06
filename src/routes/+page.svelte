@@ -9,10 +9,10 @@
         { src: "./Cards/rap.jpg", type: "RAP", path: 'rap', id: 3 },
         { src: "./Cards/sertanejo.png", type: "SERTANEJO", path: 'sertanejo', id: 4 },
         { src: "./Cards/jazz.png", type: "JAZZ", path: 'jazz', id: 5 },
-        { src: "./Cards/classic.png", type: "MÚSICA CLÁSSICA", path: 'musica-classica', id: 6 },
+        { src: "./Cards/classica.png", type: "MÚSICA CLÁSSICA", path: 'classica', id: 6 },
         { src: "./Cards/bossaNova.jpg", type: "BOSSA NOVA", path:'bossanova', id: 7 },
         { src: "./Cards/pagode.png", type: "PAGODE E SAMBA", path:'pagode', id: 8 },
-        { src: "./Cards/forro.png", type: "FORRÓ E PISEIRO", path: 'forro-piseiro', id: 9 },
+        { src: "./Cards/forro.png", type: "FORRÓ E PISEIRO", path: 'forro_piseiro', id: 9 },
         { src: "./Cards/Pop.png", type: "POP", path: 'pop', id: 10 },
         { src: "./Cards/blues.jpg", type: "BLUES", path: 'blues', id: 11 }
     ];

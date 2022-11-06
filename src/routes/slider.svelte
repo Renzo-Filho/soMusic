@@ -6,19 +6,19 @@
             <ul class="slides" style="margin-top: -10000000000000000000%;">
                 <li>
                     <a href="">
-                        <img src="classic.png" alt="a" />
+                        <img src="./Cards/1.png" alt="a" />
                     </a>
                     <div class="caption center-align" />
                 </li>
                 <li>
                     <a href="">
-                        <img src="" alt="" />
+                        <img src="./Cards/2.png" alt="" />
                     </a>
                     <div class="caption left-align" />
                 </li>
                 <li>
                     <a href="">
-                        <img src="" alt="" />
+                        <img src="./Cards/3.png" alt="" />
                     </a>
                     <div class="caption right-align" />
                 </li>
@@ -29,15 +29,14 @@
 
 <style>
     .slider-content {
-       margin-bottom: 30%;
+       margin-bottom: 18%;
     }
 
     #slides_inicio {
-        height: 170px;
+        height: 200px;
         width: 1200px;
         margin: 25px;
         padding: 1%;
-        background-color: brown;
         margin-left: 11%;
     }
 </style>

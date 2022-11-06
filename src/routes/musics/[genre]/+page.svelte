@@ -1,7 +1,7 @@
 <script>
   /** @type {import('./$types').PageData} */ export let data;
+  import Player from "../../player.svelte";
 </script>
-
 
 <main>
   <div class="row">
@@ -26,10 +26,11 @@
       </div>
     {/each}
   </div>
+
+  <Player />
 </main>
 
 <style>
-
   .row {
     margin-top: 15px;
   }

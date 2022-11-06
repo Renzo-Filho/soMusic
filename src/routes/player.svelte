@@ -1,4 +1,5 @@
 <script>
+    /** @type {import('./$types').PageData} */ export let data;
 
 
 </script>
@@ -31,6 +32,13 @@
 </main>
 
 <style>
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 6%;
+    }
+
     .playerOfMusic {
         position: fixed;
         bottom: 0;
