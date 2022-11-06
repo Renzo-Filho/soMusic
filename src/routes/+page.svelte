@@ -6,7 +6,7 @@
         { src: "./Cards/rock.jpg", type: "ROCK INTERNACIONAL", path: 'rockInt' , id: 0 },
         { src: "./Cards/rock_br.jpg", type: "ROCK NACIONAL", id: 1 },
         { src: "./Cards/mpb.png", type: "MPB", id: 2 },
-        { src: "./Cards/rap.jpg", type: "RAP", id: 3 },
+        { src: "./Cards/rap.jpg", type: "RAP", path: 'rap', id: 3 },
         { src: "./Cards/sertanejo.png", type: "SERTANEJO", id: 4 },
         { src: "./Cards/jazz.png", type: "JAZZ", id: 5 },
         { src: "./Cards/classic.png", type: "MÚSICA CLÁSSICA", id: 6 },
