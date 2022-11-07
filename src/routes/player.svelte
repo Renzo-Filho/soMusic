@@ -1,21 +1,31 @@
 <svelte:options accessors/>
 <script>
       /** @type {import('./$types').PageData} */ export let data;
-    export let play;
+
+    export let play; 
+    export let replay; 
     export let pause;
-    export let music;
+    export let volOff;
+    export let volOn;
+    export let next;
+    export let back; // icones do player
+
+    export let music; 
 
     export function playMusic(id){
-        if(!play.style.display == 'none'){
+        if(play.style.display != 'none'){
             play.style.display = 'none';
             pause.style.display = 'block';
         } else {
             pause.style.display = 'none';
-            play.style.display == 'block'
+            play.style.display = 'block';
         }        
-        music = Object.values(data).filter(musica => musica.id == id)[0] // objeto musica   
-        console.log(music)     
+        music = Object.values(data).filter(musica => musica.id == id)[0] // objeto musica      
     }
+
+    // play.addEventListener('click', () => {
+    //     playMusic(id);
+    // });
 
 
 
@@ -156,13 +166,13 @@
     </div>
 
     <div class="player">
-      <i class="material-icons btn-volume">volume_up</i>
-      <i class="material-icons btn-volume-off">volume_off</i>
-      <i class="fa-solid fa-backward-step btn-change back" />
+      <i class="material-icons btn-volume" bind:this={volOn}>volume_up</i>
+      <i class="material-icons btn-volume-off" bind:this={volOff}>volume_off</i>
+      <i class="fa-solid fa-backward-step btn-change back" bind:this={back}/>
       <i class="material-icons btn-play" bind:this={play}>play_circle_filled</i>
       <i class="material-icons btn-pause" bind:this={pause}>pause</i>
-      <i class="fa-solid fa-forward-step btn-change next" />
-      <i class="material-icons btn-replay">replay</i>
+      <i class="fa-solid fa-forward-step btn-change next" bind:this={next}/>
+      <i class="material-icons btn-replay" bind:this={replay}>replay</i>
     </div>
   </div>
 </main>

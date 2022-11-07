@@ -1,22 +1,31 @@
-
 <script>
   /** @type {import('./$types').PageData} */ export let data;
-    import Player from '../../player.svelte';
-    import { onMount } from 'svelte';
+  import Player from "../../player.svelte";
+  import { onMount } from "svelte";
+  import Audio from "../../audio.svelte";
 
-    let player;
-    //let btnPlay;
-    let audioo;
+  let player;
+  //let btnPlay;  //console.log(audioo) //element.music.id
+  let audioo;
+  var checar = true;
 
-      function tocarMusica(id) {
-        player.playMusic(id);
-        console.log(audioo) //element.music.id
+  function tocarMusica(id) {
+    player.playMusic(id);
+     
+      if (checar) {
         audioo.play();
-    }
+        checar = false;
+      } else {
+        audioo.pause();
+        checar = true;
+      }
+  }
 
-    onMount(() => {
-      
-    })
+  function volumeOff() {
+   // player.volOff.display = ''
+  }
+
+  onMount(() => {});
 </script>
 
 <main>
@@ -28,32 +37,31 @@
             <div class="card-image waves-effect waves-block waves-light">
               <img src={music.img} alt="error" />
             </div>
-            <button id={music.id} on:click={tocarMusica(music.id)}></button>
-            <!-- <a 
+            <!-- <button
               id={music.id}
-              class="btn-floating halfway-fab waves-effect waves-light red playMusic"
-              ><i class="material-icons">play_arrow</i></a
-            > -->
+              on:click={tocarMusica(music.id)}
+            /> -->
+            <a
+            on:mousedown={tocarMusica(music.id)}
+            id={music.id}
+            class="btn-floating halfway-fab waves-effect waves-light red playMusic"
+            ><i class="material-icons">play_arrow</i></a
+          >
           </div>
           <div class="card-content">
             <p>{music.title}</p>
           </div>
           <!-- <Audio bind:this={theMusic} src={music.src}/> -->
-          <audio bind:this={audioo} src={music.src} controls/>
+          <audio bind:this={audioo} src={music.src} controls />
         </div>
       </div>
     {/each}
   </div>
 
-  <Player bind:this={player} data={data}/>
+  <Player bind:this={player} data = {data} />
 </main>
 
 <style>
-
-  button {
-    width: 20px;
-  }
-
   .row {
     margin-top: 15px;
   }
