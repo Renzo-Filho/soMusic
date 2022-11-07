@@ -1,6 +1,22 @@
+
 <script>
   /** @type {import('./$types').PageData} */ export let data;
-  import Player from "../../player.svelte";
+    import Player from '../../player.svelte';
+    import { onMount } from 'svelte';
+
+    let player;
+    //let btnPlay;
+    let audioo;
+
+      function tocarMusica(id) {
+        player.playMusic(id);
+        console.log(audioo) //element.music.id
+        audioo.play();
+    }
+
+    onMount(() => {
+      
+    })
 </script>
 
 <main>
@@ -12,25 +28,32 @@
             <div class="card-image waves-effect waves-block waves-light">
               <img src={music.img} alt="error" />
             </div>
-            <a
+            <button id={music.id} on:click={tocarMusica(music.id)}></button>
+            <!-- <a 
               id={music.id}
               class="btn-floating halfway-fab waves-effect waves-light red playMusic"
               ><i class="material-icons">play_arrow</i></a
-            >
+            > -->
           </div>
           <div class="card-content">
             <p>{music.title}</p>
           </div>
-          <audio src={music.src} controls />
+          <!-- <Audio bind:this={theMusic} src={music.src}/> -->
+          <audio bind:this={audioo} src={music.src} controls/>
         </div>
       </div>
     {/each}
   </div>
 
-  <Player />
+  <Player bind:this={player} data={data}/>
 </main>
 
 <style>
+
+  button {
+    width: 20px;
+  }
+
   .row {
     margin-top: 15px;
   }
